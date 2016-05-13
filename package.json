@@ -1,0 +1,13 @@
+{
+  "name": "assertTypes",
+  "version": "1.0.0",
+  "main": "js/src/assertTypes",
+  "dependencies": {
+    "assertType": "aleclarson/assertType#1.0.0"
+  },
+  "lotus": {
+    "plugins": [
+      "lotus-coffee"
+    ]
+  }
+}

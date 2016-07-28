@@ -6,12 +6,6 @@ module.exports = (obj, types) ->
   assertType obj, Object
   assertType types, Object
 
-  meta = { obj, types }
-
   for key, type of types
-
-    meta.key = key
-
-    assertType obj[key], type, meta
-
+    assertType obj[key], type, key
   return

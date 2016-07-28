@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "js/src/assertTypes",
   "dependencies": {
-    "assertType": "aleclarson/assertType#1.0.0"
+    "assertType": "aleclarson/assertType#2.0.0"
   },
   "lotus": {
     "plugins": [
